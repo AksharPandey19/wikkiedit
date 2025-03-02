@@ -20,7 +20,7 @@ export function Header({ articleId }) {
     <header className="bg-black text-white p-4 flex items-center justify-between border-b border-gray-800">
       {/* Logo */}
       <h1 className="text-2xl font-bold cursor-pointer">
-        <a href="/">WikiEdit</a>
+      <Link href="/" >WikiEdit</Link>
       </h1>
 
       {/* Search Bar */}

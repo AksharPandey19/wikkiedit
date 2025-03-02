@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import Image from "next/image";
 import logo from "./logo.svg";
-import { Search } from "lucide-react";
 
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");

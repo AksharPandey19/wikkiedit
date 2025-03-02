@@ -21,6 +21,7 @@ export default async function handler(req, res) {
 
     return res.status(200).json(articles);
   } catch (error) {
+    console.error("Error fetching articles:", error); // Log error to console
     return res.status(500).json({ error: "Internal Server Error" });
   }
 }

@@ -2,7 +2,7 @@
 
 import { useRouter, useSearchParams } from "next/navigation";
 import { useState, useEffect } from "react";
-import { Moon, Router, Search } from "lucide-react";
+import { Link, Search } from "lucide-react";
 
 export function Header() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -18,7 +18,7 @@ export function Header() {
   return (
     <header className="bg-black text-white p-4 flex items-center justify-between border-b border-gray-800">
       {/* Logo */}
-      <h1 className="text-2xl font-bold cursor-pointer"><a href="/">WikiEdit</a></h1>
+      <h1 className="text-2xl font-bold cursor-pointer"><Link href="/">WikiEdit</Link></h1>
 
       {/* Search Bar */}
       <form onSubmit={handleSearch} className="flex items-center bg-gray-800 px-3 py-2 rounded-lg">
@@ -58,7 +58,7 @@ export default function SearchPage() {
     <div className="min-h-screen bg-black text-white p-6">
           <Header/>
           <br></br>
-      <h1 className="text-3xl font-bold mb-4">Search results for <span className="text-gray-300">"{query}"</span></h1>
+      <h1 className="text-3xl font-bold mb-4">Search results for <span className="text-gray-300">&quot;{query}!&quot;</span></h1>
 
       {results.length > 0 ? (
         <div className="space-y-4">

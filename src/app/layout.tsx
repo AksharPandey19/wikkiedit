@@ -28,21 +28,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
-        <script>
-
-        console.log(`%c                                             ___   
-    _____                                   /\\  \\  
-   /::\\  \\                     ___         /::\\  \\ 
-  /:/\\:\\  \\                   /\\__\\       /:/\\:\\__\\
- /:/ /::\\__\\   ___     ___   /:/__/      /:/ /:/  /
-/:/_/:/\\:|__| /\\  \\   /\\__\\ /::\\  \\     /:/_/:/  / 
-\\:\\/:/ /:/  / \\:\\  \\ /:/  / \\/\\:\\  \\__  \\:\\/:/  /  
- \\::/_/:/  /   \\:\\  /:/  /   ~~\\:\\/\\__\\  \\::/__/   
-  \\:\\/:/  /     \\:\\/:/  /       \\::/  /   \\:\\  \\   
-   \\::/  /       \\::/  /        /:/  /     \\:\\__\\  
-    \\/__/         \\/__/         \\/__/       \\/__/`, "color: #4962ee; font-family: monospace; font-size: 12px; font-weight: bold; text-shadow: 2px 2px rgba(0,0,0,0.2);"),
-        console.log("%c Welcome to WikiEdit! DO NOT FUCKING PASTE ANYTHING IN THE CONSOLE UNLESS YOU KNOW WHAT YOU ARE DOING.", "color: #4962ee; font-family: monospace; font-size: 12px; font-weight: bold; text-shadow: 2px 2px rgba(0,0,0,0.2);"),
-</script>      </body>
+         </body>
     </html>
   );
 }
