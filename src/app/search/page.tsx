@@ -58,7 +58,7 @@ export default function SearchPage() {
     <div className="min-h-screen bg-black text-white p-6">
           <Header/>
           <br></br>
-      <h1 className="text-3xl font-bold mb-4">Search results for <span className="text-gray-300">&quot;{query}!&quot;</span></h1>
+      <h1 className="text-3xl font-bold mb-4">Search results for <span className="text-gray-300">&quot;{query}&quot;</span></h1>
 
       {results.length > 0 ? (
         <div className="space-y-4">

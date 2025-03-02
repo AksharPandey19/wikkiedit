@@ -35,7 +35,6 @@ export default function Home() {
       {/* Header */}
       <header className="w-full flex items-center justify-between p-4 border-b border-gray-600">
         <div className="flex items-center space-x-2">
-          <Image src={logo} alt="WikiEdit Logo" width={100} height={100} />
           <h1 className="text-xl font-bold">WikiEdit</h1>
         </div>
         <button
